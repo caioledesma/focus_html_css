@@ -1,3 +1,3 @@
 # focus_html_css
 
-Exercicios de curso online de html
+Exercícios de curso online de HTML e CSS
