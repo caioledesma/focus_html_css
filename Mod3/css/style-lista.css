@@ -1,0 +1,29 @@
+*{ 
+	margin: 0;
+	padding: 0;
+
+ }
+
+html, body{
+	height: 100%;
+}
+
+ .lista, .lista2{
+ 	list-style-position: inside;
+ 	list-style-type: disc;
+ }
+
+ .lista li, .lista2 li{
+ 	font-size: 20px;
+ 	color: green;
+ 	margin-top: 10px;
+ 	margin-left: 10px;
+ }
+
+ .lista .item3, .lista2 .item3{ 
+ 	font-weight: bold;
+  }
+
+
+
+

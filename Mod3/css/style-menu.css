@@ -1,0 +1,32 @@
+/* Com relação ao CSS, e a div acima, para especificar e colocar a característica somente no atributo filho ai colocamos esse sinal > por exemplo: #div1 > h1{}. Se for para que ele procure o H1 dentro de toda a Div o exemplo é: #div1 h1 {}; */
+
+/* quando for para chamar classes ao invés do ID, troca a jogo da velha por um ponto final antes .div1 */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	
+	width: 500px;
+	background-color: orange;
+	margin: 30px auto;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+.menu a{
+	color: black;
+	border: 2px solid blue;
+	font-size: 20px;
+	text-decoration: none;
+	
+}
+
+/* Qual a diferença de ID e Classe? ID é único e só pode ser atribuído para uma coisa, a Class vc pode repetir as formatações em vários elementos */
+
