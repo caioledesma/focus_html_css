@@ -1,0 +1,53 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+}
+
+/* pra usar um height de 100% precisa declarar primeiro a tag html acima pra ele ter referÊncia */
+
+/*
+.sidebar{
+	width: 300px;
+	height: 100%;
+	background: black;
+	float: left;
+
+}
+
+.content{
+	width: calc(100% - 300px);
+	height: 100%;
+	background: #ccc;
+	float: left;
+}
+
+*/
+
+
+/*
+.box{
+	width: calc((100% / 3) + 90px);
+	height: 90px;
+	background: red;
+}
+
+*/
+
+
+
+
+.box{
+	width: 100vw; /*viewport width = largura do viewport */
+	height: 100vh; /*viewport height = Larguar do viewport */
+	background: red;
+}
+/* o VW e o VH tem um probleminha que ele cria o scroll bar pois ele não considera ela no cálculo, na % ele já considera*/
+
+.box2{
+
+}

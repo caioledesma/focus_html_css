@@ -1,0 +1,39 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+
+
+html, body{
+	height: 100%;
+}
+
+
+input.text[type=text]{
+	background: green;
+
+}
+
+input[type=submit]{
+	background-color: blue; 
+}
+
+
+/*
+a[href="http://www.google.com"]{
+	background-color: red;
+}
+
+
+[href="http://www.google.com"]{
+	background-color: red;
+}
+
+
+a[href*="google"]{
+background-color: lightblue;
+
+}
+
+
+*/

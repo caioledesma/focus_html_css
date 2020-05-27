@@ -1,0 +1,30 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+/* 
+*/
+
+.bg {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+
+	/*backgrounds*/
+	background-color: lightgrey;
+	background-image: url('../imagens/paisagem.jpg');
+	background-size: contain;
+	background-position: left top;
+	background-repeat: repeat; /* repeat-x ou repeat-y*/
+
+
+}
+
+
+
+

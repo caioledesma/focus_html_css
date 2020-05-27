@@ -1,0 +1,35 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: "minha fonte";
+	src:url('../fonts/OpenSans-BoldItalic.ttf');
+}
+
+html, body{
+	height: 100%;
+	font-family: 'minha fonte';
+}
+
+form > *{
+	font-family: 'minha fonte';
+}
+
+
+/*
+.box p{
+	font-family: 'minha fonte';
+}
+
+.text{
+	font-family: tahoma !important;
+}
+*/
+
+
+
+
+
+

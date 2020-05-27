@@ -1,0 +1,48 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+
+
+html, body{
+	height: 100%;
+}
+
+
+
+/*
+table.table1 {
+	width: 900px;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+table tr td{
+	background-color: lightgrey;
+	height: 100px;
+	vertical-align: middle;
+	border: 3px solid black;
+}
+
+*/
+
+
+.menu{
+	position: relative /* relative é com base no " elemento mais próximo" /*absolute é com base no elemento maior */ /*fixed*/ ;
+	left: 50px;
+	top: 100px;
+	width: 1000px;
+	height: 100px;
+	background: #069;
+
+}
+/* no position do CSS o left sempre é prioridade e o tpo prevalece sobre o bottom
+
+*/
+
+.box{
+	width: 100%;
+	height: 1400px;
+	background: green;
+}
+

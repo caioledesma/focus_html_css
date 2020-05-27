@@ -1,0 +1,67 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+/* 
+*/
+
+.bg{
+	
+
+
+	/*
+	width: 500px;
+	margin: 0 auto;
+	height: 30vw;
+	background-image: url('../imagens/sunset.jpg');
+	background-size: cover;
+	background-attachment: fixed; /*fixed, scroll *//*
+	background-color: lightgrey;
+	background-repeat: no-repeat;
+	*/
+
+	/*
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	*/
+}
+
+
+.box{ 
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: black;
+}
+
+.item{
+	width: 33.3%;
+	margin-right: -4px;
+	background-color: lightblue;
+	display: inline-block;
+}
+
+.item img{
+	width: 16%;
+}
+
+.item p{ 
+	display: inline-block;
+	text-align: left;
+	background-color: purple;
+ }
+
+.last{
+	margin-right: 0;	
+}
+
+
+
+
+

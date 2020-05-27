@@ -1,0 +1,143 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+/*
+aula pseudo classe 1 
+
+.teste, .teste1, .teste2 {
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+	height: 30px;
+	background-color: #ccc;
+	display: inline-block;
+}
+
+.teste1 {
+	background-color: #989898
+}
+
+.teste2 {
+	background-color: black;
+}
+
+.teste:hover, .teste1:hover, .teste2:hover{
+	background-color: blue;
+	height: 500px;
+}
+
+.teste:active{
+	background-color: black;
+}
+
+.teste:focus{
+	background-color: red;
+}
+
+.textarea1{
+	display: block;
+	width: 600px;
+	height: 400px;
+}
+
+.link1:visited {
+	color: orange;
+}
+
+.link1:link {
+	color: green;
+}
+
+*/
+
+.box div{
+	box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	background-color: red;
+	border: 1px solid black;
+
+}
+
+/* pseudo classes aula 2
+ul{
+	list-style-position: inside;
+}
+
+ul li:nth-of-type(2){
+	color: red; 
+} 
+
+ul li:nth-child(2){
+	color: blue;
+}
+
+.box {
+	width: 100%;
+}
+
+.box div{
+	box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	background-color: red;
+	border: 1px solid black;
+
+}
+
+.box div:last-of-type {
+	background-color: green;
+}
+
+.box div:not(.one){
+	background-color: gold;
+}
+
+.p::after{
+	content: ' muleke doido';
+	background-color: red;
+}
+
+.p::before{
+	content: ' testando antes';
+	background-color: red;
+}
+
+*/
+
+
+.parent{
+	background-color: #069; 
+	width: 100%;
+	padding: 90px 0;
+	text-align: center;
+
+ }
+
+.item{
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	background-color: green;
+	margin: 20px 0;
+}
+
+
+
+
+/* pseudo classes aula 3
+
+.parent div:nth-of-type(2n + 1) div.item{
+	background-color: red;
+}
+
+Essa fórmula 2n + 1 significa que a cada 2 elementos aplique o esitlo, um sim, um não. Ele não explicou bem o que é, mas essa é a ideia.
+*/
