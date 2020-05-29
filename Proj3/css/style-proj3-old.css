@@ -1,0 +1,328 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+	height: 100%;
+
+}
+
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	width: 100%;
+	height: 90vh;
+	min-height: 800px;
+	padding: 40px 2%;
+	/*max-height: 700px;*/
+	font-weight: 600;
+	background-size: cover;
+	background-position: center;
+	background-image: url('../images/capa.png');
+}
+
+header .logo{
+	width: 160px;
+	height: 60px;
+	background-color: #ccc;
+	float: left;
+}
+
+header nav{
+	float: right;
+	/*margin-top: 20px;*/
+}
+
+nav.mobile-menu{
+	cursor: pointer;
+	display: none;
+	width: 32px;
+	height: 32px;
+	background-image: url('../images/menu.png');
+	background-size: 100% 100%;
+}
+
+nav.mobile-menu:hover ul{
+	opacity: 1;
+}
+
+nav.mobile-menu ul{
+	opacity: 0;
+	transition: 1s;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 80px;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav.mobile-menu ul li{
+	padding: 8px 0;
+	border-bottom: 1px solid black;
+	transition: 0.4s;
+}
+
+nav.mobile-menu ul li:hover{
+	background-color: rgb(240,240,240);
+}
+
+nav.mobile-menu ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+header nav.desktop-menu ul{
+	list-style-type: none; 
+}
+
+header nav.desktop-menu li{
+	float: left;
+	padding-right: 0 20px;
+	/*display: inline-block*/
+
+}
+
+header nav.desktop-menu li a{
+	color: white;
+	padding-right: 10px;
+	text-decoration: none;
+
+}
+
+.chamada-1{
+	max-width: 600px;
+	float: right;
+	margin: 140px 150px;
+}
+
+.chamada-1 h2{
+	font-size: 40px;
+	color: white;
+	font-weight: 300;
+}
+
+.chamada-1 p{
+	font-size: 15px;
+	color: white;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+/* Sessão */
+
+section.sessao1{
+	width: 100%;
+	background-color: #472562;
+	padding: 0 2%;
+	height: 400px;
+}
+
+section.sessao1 .container{
+	max-width: 1000px;
+}
+
+
+.texto-sessao1{
+	float: left;
+	width: 50%;
+	color: white;
+	margin-top: 70px;
+	padding-left: 80px;
+	position: relative;
+	left: 55px;
+
+}
+
+.texto-sessao1 h2{
+	font-size: 26px;
+	font-weight: 300;
+}
+
+.texto-sessao1 p{
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.texto-sessao1 ul{
+	font-size: 15px;
+	list-style-position: inside;
+
+}
+
+.texto-sessao1 li{
+	float: left;
+	margin-top: 8px;
+	width: 100%;
+
+}
+.device-sessao1{
+	float: left;
+	width: 50%;
+	height: 430px;
+	background-image: url(../images/device.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	top: -30px;
+}
+
+.btn1-texto input{
+	background-color: #FF7C41;
+	width: 165px;
+	height: 44px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	margin-top: 20px;
+	border-radius: 30px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+
+.sessao2{
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: white;
+	text-align: center; 
+}
+
+.sessao2 .container{
+	max-width: 1000px;
+}
+
+.sessao2 h2{
+	color: #472663;
+	font-weight: 300;
+}
+
+.sessao2 p{
+	margin-top: 30px;
+	max-width: 800px;
+	display: inline-block;
+}
+
+.sessao2 img{
+	width: 90%;
+	margin-top: 40px;
+}
+
+
+@media screen and (max-width: 830px){
+
+	.chamada-1{
+		max-width: none;
+		width: 100%;
+		text-align: center;
+		float: none;
+		margin: 170px 0;
+	}
+
+	.chamada-1 h2{
+		font-size: 30px;
+		color: white;
+		padding: 0 10px;
+		font-weight: 300;
+	}
+
+	.chamada-1 p{
+		font-size: 15px;
+		color: white;
+		margin-top: 10px;
+	}
+
+}
+
+
+@media screen and (max-width: 768px){
+
+	header{
+		width: 100%;
+		height: auto;
+		min-height: 90vh;
+		padding: 40px 2%;
+	}
+
+	nav.desktop-menu{
+		display: none;
+	}
+
+	nav.mobile-menu{
+		display: inline-block;
+	}
+
+	.chamada-1{
+		max-width: none;
+		width: 100%;
+		text-align: center;
+		float: none;
+		margin: 100px 0;
+	}
+
+	.chamada-1 h2{
+		font-size: 30px;
+		color: white;
+		padding: 0 10px;
+		font-weight: 300;
+	}
+
+	.chamada-1 p{
+		font-size: 15px;
+		color: white;
+		margin-top: 10px;
+	}
+
+
+
+	section.sessao1{
+		padding: 40px 2%;
+		height: auto;
+	}
+
+	.texto-sessao1{
+		float: none;
+		position: static;
+		margin-top: 0;
+		display: inline-block;
+		width: 100%;
+		padding-left: 0;
+	}
+	
+	.texto-sessao1 h2, .texto-sessao1 p{
+		text-align: center;
+	}
+
+	
+
+	.texto-sessao1 ul{
+		display: inline-block;
+		margin-top: 20px;
+	}
+
+	.texto-sessao1 ul li{
+		float: none;
+		text-align: left;
+	}
+
+	.device-sessao1{
+		display: none;
+	}
+
+	.sessao2{
+		padding: 40px 2%;
+	}
+
+
+}
